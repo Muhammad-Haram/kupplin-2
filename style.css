@@ -184,6 +184,7 @@
   font-weight: 900;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .content .content-p {
@@ -193,6 +194,7 @@
   max-width: 490px;
   font-size: 14px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .Allbtn {
@@ -780,6 +782,10 @@ footer .social-icon img {
 
   .nav-line {
     margin-right: 30px;
+  }
+
+  .nav-links ul li {
+    margin-bottom: 20px;
   }
 
   .nav-links ul li a {
