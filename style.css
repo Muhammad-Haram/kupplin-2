@@ -811,6 +811,8 @@
 /* award section */
 
 .award-section {
+  width: 100%;
+  padding: 35px 0 35px 0;
   background-color: #000;
 }
 
@@ -822,9 +824,11 @@
 }
 
 .cus-sec-award h1 {
-  color: #252525;
+  font-size: 30px;
+  text-align: center;
   font-family: neueHassDisplayMedium;
   margin-bottom: 30px;
+  color: white;
 }
 
 .cus-sec-award .awards {
@@ -1312,6 +1316,10 @@ footer .social-icon img {
 
   .cus-sec-award {
     padding: 50px;
+  }
+
+  .cus-sec-award h1{
+    font-size: 40px;
   }
 
   .testimonial {
