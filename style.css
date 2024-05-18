@@ -92,7 +92,7 @@
   display: none;
 }
 
-.nav-btn-container{
+.nav-btn-container {
   margin-bottom: 15px;
 }
 
@@ -281,7 +281,7 @@
 
 .marquee {
   background-color: #fff;
-  padding:0 0 35px 0;
+  padding: 0 0 35px 0;
   border-bottom: 1px solid #bbbbbb;
 }
 
@@ -345,6 +345,14 @@
 
 /* services section */
 
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
 .services .services-h1 {
   color: #424242;
   font-family: neueHassDisplayBlack;
@@ -352,6 +360,7 @@
   font-size: 40px;
   margin-top: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .services .ser-card-h1 {
@@ -359,33 +368,62 @@
   font-family: neueHassDisplayBlack;
   font-weight: 900;
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.service-img {
+.ser-img {
   border: 1px solid #bbbbbb;
+  width: 100%;
+  padding: 35px 25px 35px 25px;
 }
 
-.service-text {
-  border: 1px solid #bbbbbb;
+.ser-img img {
+  width: 100%;
+}
+
+.ser-text {
+  border: 0.5px solid #bbbbbb;
+  width: 100%;
+  padding: 25px 25px 35px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ser-card-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .services .ser-card {
-  border-top: 1px solid #bbbbbb;
-  border-bottom: 1px solid #bbbbbb;
+  border-top: 0.5px solid #bbbbbb;
+  border-bottom: 0.5px solid #bbbbbb;
   padding: 0px 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .services .ser-card-2 {
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 0.5px solid #bbbbbb;
   padding: 0px 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .ser-card-h1 {
   color: #424242;
 }
 
-.ser-card-p {
+.ser-card-para {
   color: #505050;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
 }
 
 .ser-btn {
@@ -851,7 +889,7 @@ footer .social-icon img {
 
   .marquee {
     background-color: #fff;
-    padding:25px 0 60px 0;
+    padding: 25px 0 60px 0;
     border-bottom: 1px solid #bbbbbb;
   }
 
@@ -878,20 +916,6 @@ footer .social-icon img {
     margin-bottom: 30px;
   }
 
-  .content .content-p {
-    max-width: 630px;
-    font-size: 17px;
-    text-align: left;
-    margin-bottom: 70px;
-  }
-
-  .services .services-h1 {
-    margin-left: 120px;
-    font-size: 60px;
-    margin-top: 70px;
-    margin-bottom: 30px;
-  }
-
   .content-btn {
     display: flex;
     align-items: center;
@@ -899,20 +923,61 @@ footer .social-icon img {
     flex-direction: row;
     gap: 15px;
   }
+  .content .content-p {
+    max-width: 630px;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 70px;
+  }
+
+  .services {
+    align-items: start;
+    margin-bottom: 35px;
+  }
+
+  .services .services-h1 {
+    margin-left: 120px;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
 
   .ser-card-para {
     font-size: 16px;
     max-width: 560px;
+    text-align: left;
+  }
+
+  .services .ser-card {
   }
 
   .services .ser-card,
   .services .ser-card-2 {
     padding: 0px 120px;
+    flex-direction: row;
+  }
+
+  .services .ser-card-2 {
+    flex-direction: row-reverse;
   }
 
   .services .ser-card-h1 {
     font-size: 40px;
     max-width: 300px;
+    text-align: left;
+  }
+
+  .ser-text {
+    width: 50%;
+    padding: 35px;
+    align-items: flex-start;
+  }
+
+  .ser-img {
+    border: 1px solid #bbbbbb;
+    width: 50%;
+    padding: 35px 35px 35px 35px;
   }
 
   .video-section {
