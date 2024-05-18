@@ -848,7 +848,16 @@
 /* testimonial  */
 
 .testimonial {
+  width: 100%;
   background-color: #161616;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-head {
+  padding: 0 15px 0 15px;
+  width: 100%;
 }
 
 .tes-h1 {
@@ -857,6 +866,9 @@
   font-size: 35px;
   text-transform: uppercase;
   max-width: 375px;
+  text-align: center;
+  color: #fff;
+  padding-top: 0;
 }
 
 .swiper-slide {
@@ -1318,13 +1330,20 @@ footer .social-icon img {
     padding: 50px;
   }
 
-  .cus-sec-award h1{
+  .cus-sec-award h1 {
     font-size: 40px;
   }
 
   .testimonial {
     padding: 40px;
     padding-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonial-head {
+    padding: 0 25px 0 0px;
+    width: 33%;
   }
 
   .tes-h1 {
@@ -1333,6 +1352,7 @@ footer .social-icon img {
     font-size: 45px;
     text-transform: uppercase;
     max-width: 375px;
+    text-align: left;
   }
 
   .swiper-wrapper {
