@@ -166,6 +166,10 @@
   gap: 20px;
 }
 
+.content-text{
+  width: 100%;
+}
+
 .content-btn {
   display: flex;
   align-items: center;
@@ -837,8 +841,13 @@ footer .social-icon img {
 
   .content {
     padding: 50px 120px 90px 120px;
+    display: flex;
     flex-direction: column-reverse;
     margin-bottom: 10px;
+  }
+
+  .content-text{
+    width: 50%;
   }
 
   .content .content-h1 {
