@@ -161,7 +161,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   margin-bottom: 0;
   gap: 20px;
 }
@@ -227,13 +227,21 @@
 /* tech solution section  */
 
 .tech-Solution {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
   padding: 30px 30px;
+  flex-direction: column;
 }
 
 .tech-sol-left,
 .tech-sol-right {
   gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tech-sol-para {
@@ -798,6 +806,7 @@ footer .social-icon img {
     gap: 100px;
     padding: 80px 120px;
     padding-bottom: 120px;
+    flex-direction: row;
   }
 
   .tech-Sol-divider {
@@ -828,6 +837,8 @@ footer .social-icon img {
 
   .content {
     padding: 50px 120px 90px 120px;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
   }
 
   .content .content-h1 {
