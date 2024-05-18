@@ -92,6 +92,10 @@
   display: none;
 }
 
+.nav-btn-container{
+  margin-bottom: 15px;
+}
+
 .nav-list {
   width: 50%;
 }
@@ -256,6 +260,7 @@
   font-size: 13px;
   color: #424242;
   max-width: 180px;
+  text-transform: uppercase;
 }
 
 .tech-Sol-divider {
@@ -275,6 +280,8 @@
 /* marquee section  */
 
 .marquee {
+  background-color: #fff;
+  padding:0 0 35px 0;
   border-bottom: 1px solid #bbbbbb;
 }
 
@@ -282,6 +289,8 @@
   color: #424242;
   font-family: neueHassDisplayMedium;
   font-size: 25px;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
 }
 
 .elem {
@@ -770,7 +779,6 @@ footer .social-icon img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
   }
 
   .nav-buttons .nav-btn {
@@ -815,7 +823,7 @@ footer .social-icon img {
   .tech-Solution {
     gap: 100px;
     padding: 80px 120px;
-    padding-bottom: 120px;
+    padding-bottom: 180px;
     flex-direction: row;
   }
 
@@ -841,8 +849,15 @@ footer .social-icon img {
     max-width: 200px;
   }
 
+  .marquee {
+    background-color: #fff;
+    padding:25px 0 60px 0;
+    border-bottom: 1px solid #bbbbbb;
+  }
+
   .marquee .marquee-h1 {
     font-size: 35px;
+    padding: 25px 25px 50px 25px;
   }
 
   .content {
