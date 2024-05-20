@@ -956,13 +956,30 @@ color: #EEFF04;
 /* testimonial end */
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color:#fff;
+  gap: 20px;
   font-family: neueHassDisplayRoman;
   padding: 30px;
   background-color: #000;
+  text-align: center;
 }
 
-footer img {
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .footer-logo {
   width: 200px;
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 footer .fo-blue-txt {
@@ -970,6 +987,7 @@ footer .fo-blue-txt {
   color: #40b4e5;
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 
 footer .fo-tin-txt {
@@ -982,9 +1000,26 @@ footer a {
   word-spacing: 2px;
 }
 
-footer .rating img {
+footer .rating{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+
+}
+
+footer .rating .rating-reviews {
   width: 130px;
   margin-bottom: 0;
+}
+
+.footer .footer-anchor{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .fo-number{
+  margin-top: 15px;
 }
 
 footer .rating h6 {
@@ -992,8 +1027,21 @@ footer .rating h6 {
   font-weight: 500;
 }
 
+footer .social-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
 footer .social-icon img {
   width: 20px;
+}
+
+.footer-last-p{
+  margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
@@ -1421,9 +1469,17 @@ footer .social-icon img {
   .swiper-scrollbar {
     display: flex;
   }
-
+   
   footer {
+    flex-direction: row;
+    justify-content: space-around;
     padding: 90px 150px;
+    text-align: start;
+    gap: 0;
+  }
+  
+  .footer{
+    align-items: flex-start;
   }
 
   .footer .fo-tin-txt {
