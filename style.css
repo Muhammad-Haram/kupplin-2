@@ -950,7 +950,7 @@ color: #EEFF04;
 }
 
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  left: 70% !important;
+  left: 68% !important;
 }
 
 /* testimonial end */
@@ -1459,7 +1459,6 @@ footer .social-icon img {
     background-color: #000 !important;
     height: 450px !important;
     color: #fff;
-    border-bottom: 4px solid green;
   }
 
   .swiper-wrapper {
