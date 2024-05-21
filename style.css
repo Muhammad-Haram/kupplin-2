@@ -61,6 +61,10 @@
   z-index: 8;
 }
 
+.isActive {
+  display: none;
+}
+
 .nav-line {
   width: 2px;
   height: 300px;
@@ -80,6 +84,7 @@
   font-family: neueHassDisplayBlack;
   line-height: 1;
   font-size: 20px;
+  order: 12;
 }
 
 .nav-buttons .active {
@@ -1084,6 +1089,26 @@ footer .social-icon img {
     width: 100%;
     display: flex;
     align-items: center;
+  }
+
+  .nav-btn.active {
+    color: white;
+  }
+
+  .isActive {
+    width: 44px;
+    height: 44px;
+    margin-right: 0px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+    margin-top: 5px;
+  }
+  
+  .nav-btn.active + .isActive {
+    display: block;
+    margin-right: 10px;
   }
 
   .nav-line {
