@@ -50,7 +50,7 @@
 }
 
 .nav-info {
-  background-color: #fff;
+  background-color: #000;
   width: 100%;
   height: 100%;
   display: flex;
@@ -133,7 +133,7 @@
 .nav-contact p {
   font-family: neueHassDisplayRoman;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .show {
@@ -155,6 +155,19 @@
 
 .menu img {
   width: 45px;
+}
+
+.open-menu-text,
+.close-menu-text {
+  font-family: "Inter", sans-serif;
+  color: #424242;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.close-menu-text{
+  color: #fff;
 }
 
 /* hero content */
@@ -917,19 +930,19 @@
 }
 
 .slide-yellow .swiper-para {
-color: #EEFF04;
+  color: #eeff04;
 }
 
 .slide-blue {
   border-bottom: 4px solid #0082f9;
 }
 
-.slide-green{
+.slide-green {
   border-bottom: 4px solid #1e723c;
 }
 
-.slide-yellow{
-  border-bottom: 4px solid #EEFF04;
+.slide-yellow {
+  border-bottom: 4px solid #eeff04;
 }
 
 .swiper-h1 {
@@ -961,7 +974,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color:#fff;
+  color: #fff;
   gap: 20px;
   font-family: neueHassDisplayRoman;
   padding: 30px;
@@ -969,7 +982,7 @@ footer {
   text-align: center;
 }
 
-.footer{
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1000,12 +1013,11 @@ footer a {
   word-spacing: 2px;
 }
 
-footer .rating{
+footer .rating {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 15px;
-
 }
 
 footer .rating .rating-reviews {
@@ -1013,12 +1025,12 @@ footer .rating .rating-reviews {
   margin-bottom: 0;
 }
 
-.footer .footer-anchor{
+.footer .footer-anchor {
   text-decoration: none;
   color: #fff;
 }
 
-.footer .fo-number{
+.footer .fo-number {
   margin-top: 15px;
 }
 
@@ -1027,7 +1039,7 @@ footer .rating h6 {
   font-weight: 500;
 }
 
-footer .social-icon{
+footer .social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1040,7 +1052,7 @@ footer .social-icon img {
   width: 20px;
 }
 
-.footer-last-p{
+.footer-last-p {
   margin-bottom: 15px;
 }
 
@@ -1468,7 +1480,7 @@ footer .social-icon img {
   .swiper-scrollbar {
     display: flex;
   }
-   
+
   footer {
     flex-direction: row;
     justify-content: space-around;
@@ -1476,8 +1488,8 @@ footer .social-icon img {
     text-align: start;
     gap: 0;
   }
-  
-  .footer{
+
+  .footer {
     align-items: flex-start;
   }
 
