@@ -864,6 +864,8 @@
   display: block;
   align-items: center;
   justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .testimonial-head {
@@ -961,7 +963,7 @@
 }
 
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  left: 68% !important;
+  left: 64% !important;
 }
 
 /* testimonial end */
