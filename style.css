@@ -151,13 +151,17 @@
   width: 45px;
 }
 
+.menu .search-img{
+  display: none;
+}
+
 .open-menu-text,
 .close-menu-text {
   font-family: "Inter", sans-serif;
   color: #424242;
   font-weight: 500;
   font-size: 14px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .close-menu-text{
@@ -1059,6 +1063,12 @@ footer .social-icon img {
   .nav,
   .nav-close {
     padding: 20px 120px;
+  }
+
+  .menu .search-img{
+    width: 20px;
+    margin-right: 40px;
+    display: flex;
   }
 
   .nav-btn-container {
