@@ -38,14 +38,6 @@ for (let b = 0; b < allBtns.length; b++) {
   });
 }
 
-for (let i = 0; i < NavBtnCont.length; i++) {
-  NavBtnCont[i].addEventListener("click", function () {
-    let imgActive = document.querySelectorAll(".isActive");
-
-    for (let s = 0; s < imgActive.length; s++) {}
-  });
-}
-
 document.querySelector(".nav-btn").click();
 
 // swiper js

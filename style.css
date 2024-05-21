@@ -72,10 +72,10 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+  color: #403F3F;
 }
 
 .nav-buttons .nav-btn {
-  color: #cdcdcd;
   cursor: pointer;
   font-family: neueHassDisplayBlack;
   line-height: 1;
@@ -83,13 +83,7 @@
 }
 
 .nav-buttons .active {
-  color: black;
-}
-
-.isActive {
-  width: 50px;
-  height: 50px;
-  display: none;
+  color: #fff;
 }
 
 .nav-btn-container {
@@ -117,7 +111,7 @@
   font-family: neueHassDisplayRoman;
   line-height: 1;
   font-size: 17px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -153,7 +147,7 @@
   cursor: pointer;
 }
 
-.menu img {
+.menu .menu-img {
   width: 45px;
 }
 
